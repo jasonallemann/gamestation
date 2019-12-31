@@ -1,0 +1,74 @@
+{
+    "questions": [
+        {
+            "question":"In which country was LEGO founded?",
+            "hint":"Sweden, Denmark, or Germany",
+            "answer":"denmark"
+        },
+        {
+            "question":"In which country was the second legoland theme park opened?",
+            "hint":"England, Germany, or Japan",
+            "answer":"england"
+        },
+        {
+            "question":"Which of the following countries does not have a legoland theme park?",
+            "hint":"Malaysia, Japan, or India",
+            "answer":"india"
+        },
+        {
+            "question":"Which of the following countries does not have a lego factory?",
+            "hint":"Germany, Hungary, or Mexico",
+            "answer":"germany"
+        },
+        {
+            "question":"In which country was the first lego brand store opened?",
+            "hint":"Denmark, Germany, or The United States",
+            "answer":"germany"
+        },
+        {
+            "question":"In which year was the first lego brand store opened?",
+            "hint":"2000, 2002, or, 2004",
+            "answer":2002
+        },
+        {
+            "question":"In which year was the LEGO brick pattented?",
+            "hint":"1956, 1958, or, 1960",
+            "answer":1958
+        },
+        {
+            "question":"In which year was the modern minifig created?",
+            "hint":"1975, 1978 or, 1980",
+            "answer":1978
+        },
+        {
+            "question":"In which year were the first Star Wars sets produced?",
+            "hint":"1999, 2000, or, 2001",
+            "answer":1999
+        },
+        {
+            "question":"In which year was the mindstorms robotics invention system introduced?",
+            "hint":"1998, 1999, or, 2000",
+            "answer":1998
+        },
+        {
+            "question":"In which year was the first series of collectible minifigs introduced?",
+            "hint":"2008, 2009, or, 2010",
+            "answer":2010
+        },
+        {
+            "question":"In which year was the first modular building, Cafe Corner, released?",
+            "hint":"2003, 2005, or, 2007",
+            "answer":2007
+        },
+        {
+            "question":"In which year were wheels first introduced?",
+            "hint":"1959, 1961, or, 1963",
+            "answer":1961
+        },
+        {
+            "question":"In which year was the lego friends theme introduced?",
+            "hint":"2008, 2010, or, 2012",
+            "answer":2012
+        }
+    ]
+}
