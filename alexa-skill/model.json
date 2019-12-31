@@ -1,0 +1,171 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "the game station",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SimonIntent",
+                    "slots": [
+                        {
+                            "name": "gameMode",
+                            "type": "GameModeType"
+                        }
+                    ],
+                    "samples": [
+                        "simon",
+                        "I would like to play simon {gameMode}",
+                        "simon {gameMode}"
+                    ]
+                },
+                {
+                    "name": "MusicalChairsIntent",
+                    "slots": [],
+                    "samples": [
+                        "I would like to play musical chairs",
+                        "musical chairs"
+                    ]
+                },
+                {
+                    "name": "HotPotatoIntent",
+                    "slots": [
+                        {
+                            "name": "gameMode",
+                            "type": "GameModeType"
+                        }
+                    ],
+                    "samples": [
+                        "hot potato",
+                        "hot potato {gameMode}"
+                    ]
+                },
+                {
+                    "name": "RaceIntent",
+                    "slots": [],
+                    "samples": [
+                        "race to the top"
+                    ]
+                },
+                {
+                    "name": "GameQueryIntent",
+                    "slots": [],
+                    "samples": [
+                        "games",
+                        "what games are there",
+                        "what games can I play"
+                    ]
+                },
+                {
+                    "name": "InstructionsIntent",
+                    "slots": [
+                        {
+                            "name": "Game",
+                            "type": "GameType"
+                        }
+                    ],
+                    "samples": [
+                        "how do I play {Game}",
+                        "what are the instructions for {Game}",
+                        "instructions for {Game}",
+                        "instructions"
+                    ]
+                },
+                {
+                    "name": "TriviaIntent",
+                    "slots": [],
+                    "samples": [
+                        "trivia",
+                        "lego trivia",
+                        "let's play lego trivia"
+                    ]
+                },
+                {
+                    "name": "TriviaAnswerIntent",
+                    "slots": [
+                        {
+                            "name": "YearAnswer",
+                            "type": "AMAZON.FOUR_DIGIT_NUMBER"
+                        },
+                        {
+                            "name": "CountryAnswer",
+                            "type": "AMAZON.Country"
+                        }
+                    ],
+                    "samples": [
+                        " {YearAnswer}",
+                        " {CountryAnswer}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "GameModeType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Standard"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Advanced"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "GameType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Trivia"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "LEGO Trivia"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Race to the Top"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hot Potato"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Musical Chairs"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Simon"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
